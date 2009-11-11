@@ -11,4 +11,4 @@ end
 
 puts TestClass.new.print_something
 puts FooClass.new.print_something
-FooClass.new.raise_something
+FooClass.new.stub_method
